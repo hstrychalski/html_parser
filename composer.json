@@ -1,0 +1,16 @@
+{
+    "name": "strychu/example-parser",
+    "authors": [
+        {
+            "name": "hubertstrychalski",
+            "email": "hu.strychalski@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-dom": "20031129",
+        "simple-html-dom/simple-html-dom": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {"App\\": "src/"}
+    }
+}
